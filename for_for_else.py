@@ -13,3 +13,15 @@ Nortel
 Avaya
 Juniper
 The end of the list has been reached
+
+
+for element_index in range(len(vendors)):  #using range and len function to loop through list
+    print(vendors[element_index])
+else:  #the indented code below "else" will be executed when "for" has finished looping over the entire list
+    print("The end of the list has been reached")
+
+
+for index, element in enumerate(vendors):  #using enumerate to go through list
+    print(index, element)
+else:  #the indented code below "else" will be executed when "for" has finished looping over the entire list
+    print("The end of the list has been reached")
