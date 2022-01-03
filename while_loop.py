@@ -8,5 +8,5 @@ else:
     print("Out of the while loop. x is now greater than 10")
  
 #result of the above "while" block
-1 2 3 4 5 6 7 8 9 10
-Out of the while loop. x is now greater than 10
+# 1 2 3 4 5 6 7 8 9 10
+# Out of the while loop. x is now greater than 10
